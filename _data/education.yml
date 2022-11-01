@@ -1,13 +1,15 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Ph.D. in Computational Media
+  uni: University of California, Santa Cruz
+  year: 2021 &mdash; Present
+  summary: US, CA<ul class="resume-item-copy"><li><b>GPA</b>&colon; 4.0</li><li><b>Research Field</b>&colon; Procedural Content Generation in Games</li><li><b>Academic Advisor</b>&colon; Prof. Jim Whitehead</li><li><b>Selected Courses</b>&colon; Game Graphics (A+), Game Engines (A), AI in Games (A)</li><li><b>TAships</b>&colon; Game Design Studio II (Winter 2022), User Experience in Interactive Media (Spring 2022), Data Structure in Games (Fall 2022)</li></ul>
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: B.S. in Computer Engineering
+  uni: University of Tehran
+  year: 2016 &mdash; 2020
+  summary: US, CA<ul class="resume-item-copy"><li><b>GPA</b>&colon; 18.79/20, Ranked 4th among over 80 students</li><li><b>GPA (last two years)</b>&colon; 19.48/20, Ranked 1st among over 80 students</li><li><b>Selected Courses</b>&colon;Design and Analysis of Algorithms (20/20), Data Structures (20/20), Algorithmic Graph Theory (19/20), The Theory of Formal Languages and Automata(20/20), Artificial Intelligence(20/20), Neural Networks(20/20), Database Systems(20/20), Internet Engineering(20/20), Operating Systems (20/20)</li><li><b>TAships</b>&colon; Algorithmic Graph Theory (Spring 2020), Database Systems (Fall 2019, Sprint 2020), Probability and Statistics (Fall 2019), Programming Languages and Compilers (Fall 2019), The Theory of Formal Languages and Automata (Fall 2018, Fall 2019), Algorithms (Spring 2019)</li></ul>
+
+- degree: <q>Power Up</q> Advanced Game Development Program
+  uni: Iran Game Development Institute
+  year: 2017 &mdash; 2018
+  summary: Tehran, Iran<ul class="resume-item-copy"><li>Designed and Implemented the Enemy AI for the vertical slice of Arbot, a 3D stealth game for PC exhibited in Tehran Game Convention (TGC), <b>Unity Game Engine, C#</b></li></ul>

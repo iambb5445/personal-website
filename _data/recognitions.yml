@@ -1,10 +1,12 @@
 # Recognitions
-- award: Outstanding Achievement
-  organization: Springfield Young Professionals
-  year: 2010, 2014
-  summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+- organization: <b>Ranked 8th</b>, 24th National Olympiad in Informatics for Undergradute Students
+  summary: 2019, Tehran, Iran
 
-- award: Most Likely To Succeed
-  organization: Springfield High School
-  year: 2004
-  summary: Voted Most Likely To Succeed by a panel of my high school peers.
+- organization: <b>Ranked 65th</b>, IEEEXtreme 12.0 Programming Competition (over 9500 participants), <b>C++ Programming</b>
+  summary: 2018, Tehran, Iran
+
+- organization: <b>Ranked 93rd</b>, IEEEXtreme 11.0 Programming Competition (over 8300 participants), <b>C++ Programming</b>
+  summary: 2017, Tehran, Iran
+
+- organization: <b>Silver Medal</b>, 25th National Olympiad in Informatics
+  summary: 2015, Tehran, Iran<br>Based on knowledge of <b>algorithms, data structures, graph theory, C++ programming, problem solving,</b> and <b>discrete mathematics</b>
