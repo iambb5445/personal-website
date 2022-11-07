@@ -51,7 +51,7 @@ resume_social_links:
   #resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/bahar-bateni"
   #resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://bahar.bateni.org"
+  #resume_website_url:           "http://bahar.bateni.org"
   #resume_medium_url:            "https://medium.com/@jglovier"
   #resume_mail_url:				"bahar.bat3ni@gmail.com"
 resume_print_social_links:      true
