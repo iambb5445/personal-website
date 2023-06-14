@@ -1,64 +1,108 @@
-# Site settings
-title: "Bahar Bateni"
-description: "Bahar Bateni's personal website"
+### Site Settings ###
+title               : Bahar Bateni
+description         : >-
+                      Computational Media Phd Student at UC Santa Cruz
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+#repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
 
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Bahar Bateni"
-resume_title:                   "PhD Student in Computational Media"
+### Plugins ###
+plugins:
+  - jemoji
 
-# used for the contact button in _layouts/resume.html
-resume_contact_email:           "bahar.bat3ni@gmail.com"
 
-# the next two items are used for schema itemprops in _layouts/resume.html
-#resume_contact_telephone:       "555-7334"
-#resume_contact_address:         "742 Evergreen Terrace, Springfield"
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+#  - documentation/partials/**                           # For Documentation Only
 
-#resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-#display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I'm a PhD student in Computational Media at University of California, Santa Cruz. My insterests are Game Development, Procedural Content Generation in Games, and Software Engineering. You can find out more about me below.</p>"
+### Author Info ###
+author:
+  name              : John Doe
+  image             : https://i.imgur.com/uyDNQnn.jpg
+  behance           : your_username
+# dribbble          : your_username
+  email             : username@domain.com
+  facebook          : your_username
+  github            : your_username
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : your_username
+  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
 
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-#resume_looking_for_work:        "no"
 
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-#resume_section_projects:        true
-#resume_section_skills:          true
-resume_section_recognition:     true
-#resume_section_links:           true
-#resume_section_associations:    true
-# resume_section_interests:       true
+### Posts ###
+permalink: /blog/:title
 
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/iambb5445"
-  #resume_twitter_url:           "http://twitter.com/jglovier"
-  #resume_dribbble_url:          "https://dribbble.com/jag"
-  #resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/bahar-bateni"
-  #resume_instagram_url:         "insert your Instagram URL here"
-  #resume_website_url:           "http://bahar.bateni.org"
-  #resume_medium_url:            "https://medium.com/@jglovier"
-  #resume_mail_url:				"bahar.bat3ni@gmail.com"
-resume_print_social_links:      true
 
-# Design settings
-resume_theme:                   default
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+#  elements:                                             # For Documentation Only
+#    output: true                                        # For Documentation Only
 
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+#  - scope:                                              # For Documentation Only
+#      path: ""                                          # For Documentation Only
+#      type: "elements"                                  # For Documentation Only
+#    values:                                             # For Documentation Only
+#      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
