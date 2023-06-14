@@ -1,17 +1,28 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: University of California, Santa Cruz
+  from: 2021
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: >
+               <b>Ph.D. in Computational Media</b><br /><br />
+               <ul>
+               <li><b>GPA:</b> 4.0 <br /></li>
+               <li><b>Selected Courses:</b> Game Graphics (A+), Game Engines (A), AI in Games (A)</li>
+               <li><b>TAships:</b> Game Design Studio II (Winter 2022), User Experience in Interactive Media (Spring 2022), 
+               Data Structure in Games (Fall 2022), Game Graphics (Winter 2023), Game Design Studio III (Spring 2023)</li>
+               </ul>
+
+
+- title: Universtiy of Tehran
+  from: 2016
+  to: 2020
+  description: >
+               <b>Bachelor of Science - Computer Engineering</b><br /><br />
+               <ul>
+               <li><b>GPA:</b> 18.79/20, Ranked 4th among over 80 students</li>
+               <li><b>Selected Courses:</b> Design and Analysis of Algorithms (20/20), Data Structures (20/20),
+               Algorithmic Graph Theory (19/20), The Theory of Formal Languages and Automata(20/20),
+               Artificial Intelligence(20/20), Neural Networks(20/20), Database Systems(20/20), Internet
+               Engineering(20/20), Operating Systems (20/20)</li>
+               <li><b>TAships:</b> Algorithmic Graph Theory (Spring 2020), Database Systems (Fall 2019, Sprint 2020), 
+               Probability and Statistics (Fall 2019), Programming Languages and Compilers (Fall 2019), 
+               The Theory of Formal Languages and Automata (Fall 2018, Fall 2019), Algorithms (Spring 2019)</li>
+               </ul>
