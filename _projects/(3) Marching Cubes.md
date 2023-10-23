@@ -1,6 +1,6 @@
 ---
 name: Marching Cubes (Transvoxel Algorithm)
-tools: [Support, Author, VVG]
+tools: [Mesh Generation, Computer Graphics]
 image: ../images/transvoxel.png
 description: Marching cubes is an algorithm to extract a mesh from a 3D scalar field. This project is an efficient implementation of this algorithm based on the Transvoxel Algorithm.
 external_url:
@@ -16,5 +16,5 @@ The Marching Cubes algorithm is a computational method used to generate a three-
 This project was implemented as for the Game Graphics Course at UCSC, Winter 2022, instructed by Eric Lengyl. I originally implemented this in the provided Game Engine, but I extracted this as an standalone implementation of marching cubes to share on GitHub.
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/iambb5445/Marching-Cubes" text="Learn Mores" %}
+{% include elements/button.html link="https://github.com/iambb5445/Marching-Cubes" text="Learn More" %}
 </p>

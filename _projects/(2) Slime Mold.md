@@ -13,5 +13,5 @@ Slime mold (Physarum) simulation can be used to generate interesting self-emerga
 <img src="../images/slimemold.png" alt="preview" width="500"/>
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/iambb5445/slime-mold-timeline-simulation" text="Learn Mores" %}
+{% include elements/button.html link="https://github.com/iambb5445/slime-mold-timeline-simulation" text="Learn More" %}
 </p>
