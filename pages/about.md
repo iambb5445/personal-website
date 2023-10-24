@@ -52,7 +52,7 @@ I'm a PhD student in Computational Media at University of California, Santa Cruz
 
 ---
 
-#### [Structure and Style in City Road Network Generation](/projects/5-road-network-generation)
+#### [Structure and Coherence in City Road Network Generation](/projects/5-road-network-generation)
 Bahar Bateni, Jim Whitehead
 
 2023 IEEE Conference on Games (CoG)
