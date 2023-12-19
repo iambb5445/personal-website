@@ -16,6 +16,10 @@ First, the map is rendered as a 2D image. Each pixel represents a different clas
 
 The results of this generation, as well as a comparison with the use of WaveFunctionCollapse (WFC) algorithm for the same task is provided in the paper "Structure and Coherence in City Road Network Generation" by Bahar Bateni and Jim Whitehead. The results show the abilities of transformers in understanding and generating complex structures in city networks. The paper is in press at the moment.
 
-<p class="text-center">
+<!-- <p class="text-center">
 {% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Paper - Comming Soon" disabled=true%}
+</p> -->
+
+<p class="text-center">
+{% include elements/button.html link="https://ieeexplore.ieee.org/abstract/document/10333182" text="Paper" %}
 </p>
