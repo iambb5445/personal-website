@@ -1,0 +1,17 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - rm -f Gemfile.lock
+        - bundle install
+    build:
+      commands:
+        - bundle exec jekyll build -d public
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - vendor/bundle/**/*
