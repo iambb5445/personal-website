@@ -3,7 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
+        - rbenv install 3.2.2 -s
+        - rbenv global 3.2.2
+        - ruby -v
         - rm -f Gemfile.lock
+        - gem install bundler
         - bundle install
     build:
       commands:
