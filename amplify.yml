@@ -3,10 +3,16 @@ frontend:
   phases:
     preBuild:
       commands:
+        - export LANG=en_US.UTF-8
+        - export LC_ALL=en_US.UTF-8
+        - export RUBYOPT="-E utf-8"
         - rm -f Gemfile.lock
         - bundle install
     build:
       commands:
+        - export LANG=en_US.UTF-8
+        - export LC_ALL=en_US.UTF-8
+        - export RUBYOPT="-E utf-8"
         - bundle exec jekyll build -d public
   artifacts:
     baseDirectory: public
