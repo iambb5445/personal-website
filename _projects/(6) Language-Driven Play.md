@@ -1,6 +1,6 @@
 ---
 name: Language-Driven Play
-tools: [Python, LLM, General Game-playing]
+tools: [Python, LLM, General Game-playing, Rule Understanding]
 image: ../images/LLM-as-GGP.png
 description: General game-playing, where a model can play different games given the rules and without specialized training is a challenging tasks. This project studies whether Large Language Models can act as general game-playing agents, tested on a simplified implementation of Slay the Spire.
 external_url: 
