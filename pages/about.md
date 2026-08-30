@@ -62,6 +62,48 @@ My reseach aims to both use games as a testbed for improving AI, and using AI to
 
 ---
 
+#### [Automated Iterative Design of Solitaire Games](/projects/11-solitaire-rule-generation)
+Bahar Bateni, Jim Whitehead
+
+Accepted to 2026 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), not yet published
+
+---
+
+#### [Rule Synergy Analysis using LLMs: State of the Art and Implications](/projects/10-rule-synergy-analysis-using-llms)
+Bahar Bateni, Benjamin Pratt, Jim Whitehead
+
+Conditionally accepted to IEEE Transactions on Games (ToG) 2026, currently under revision
+
+---
+
+#### [LLM Game Rule Understanding Through Out-of-Distribution Fine-Tuning](/projects/9-solitaire-rule-understanding)
+Bahar Bateni, Benjamin Pratt, Jim Whitehead
+
+2025 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)
+
+---
+
+#### [Language-Driven Play: Large Language Models as Game-Playing Agents in Slay the Spire](/projects/6-language-driven-play)
+Bahar Bateni, Jim Whitehead
+
+2024 ACM Foundation of Digital Games (FDG)
+
+---
+
+#### [You-Only-Randomize-Once: Shaping Statistical Properties in Constraint-based PCG](/projects/7-you-only-randomize-once)
+Jediah Katz, Bahar Bateni, Adam M. Smith
+
+2024 ACM Foundation of Digital Games (FDG)
+
+---
+
+#### [MiniStS: A Testbed for Dynamic Rule Exploration](/projects/8-minists)
+Bahar Bateni, Jim Whitehead
+
+11th Experimental AI in Games Workshop (EXAG), 2024 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)
+
+---
+
 #### [Structure and Coherence in City Road Network Generation](/projects/5-road-network-generation)
 Bahar Bateni, Jim Whitehead
 
