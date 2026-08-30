@@ -10,7 +10,7 @@ external_url:
 
 Large Language Models tend to perform poorly at understanding rules, whether applying them, interacting with them, generating or modifying them, or evaluating them. Fine-tuning on a specific ruleset helps, but it undermines one of the main advantages of a pre-trained model, its ability to generalize to rulesets it hasn't seen. This generalization is exactly what matters for using LLMs as a tool in game development, where they need to give feedback or suggest rule modifications on rulesets that don't resemble anything in their training data. This project asks whether fine-tuning on rule understanding can improve generalization to these unseen, out-of-distribution rulesets, rather than only improving performance on the rules it was trained on.
 
-![preview](../images/klondike_gui.png)
+<img src="../images/board_scorpion.png" alt="preview" width="500"/>
 
 To study this, we needed a large space of distinct, well-defined rulesets to fine-tune and test on, so we built a framework for generating and simulating Solitaire variants from a custom Game Description Language (SGDL). Solitaire variants have simple rules but span a large space of possibilities, each playing out completely differently, which makes them well suited for testing generalization. The framework generates game progression questions along with a textual explanation for each answer, which are used to build datasets for both training and evaluation.
 
