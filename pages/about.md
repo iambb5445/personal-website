@@ -8,7 +8,11 @@ weight: 1
 # **About Me**
 <br>
 Hi! My name is **{{ site.author.name }}** :wave:,<br>
-I'm a PhD student in Computational Media at University of California, Santa Cruz. My interests are Game Development, Game Graphics, Procedural Content Generation in Games, and Software Engineering.
+I'm a PhD candidate in Computational Media at University of California, Santa Cruz. My interests are Game Development, Procedural Content Generation, and Generative AI.
+
+My research studies whether AI systems can reason about complex rule systems. I develop computational framework that allow for defining rule systems, using games as a testbed. Using these frameworks, my research focuses on benchmarking and improving rule understanding of Large Language Models. This involves tasks such as following instructions, automated game-playing, understanding effect of rules on each other, or even rule generation.
+
+My reseach aims to both use games as a testbed for improving AI, and using AI to improve game development.
 
 # **Honors and Awards**
 <br>
