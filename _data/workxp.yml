@@ -1,11 +1,23 @@
+- title: Take-Two Interactive
+  from: 2025
+  to: 2025
+  description: >
+               <b>Data Science Intern, Applied AI Team</b><br /><br />
+               <ul>
+               <li>Developed a key feature for a <b>procedural level generation</b> and design tool using an <b>AWS-Svelte-TypeScript</b> stack allowing game designers to rapidly create, edit, and iterate on levels for multiple high-traffic game titles (<b>millions</b> of users)</li>
+               <li>Streamlined the level design process by eliminating unnecessary steps and enabling designers to modify existing levels as requested, resulting in <b>improved workflow efficiency</b> and faster iterations</li>
+               <li>Led end-to-end development of the new feature from initial concept to <b>successful product release</b> during the internship, ensuring alignment with requirements as well as seamless integration into existing tools</li>
+               </ul>
+
 - title: Tapsi
   from: 2020
   to: 2021
   description: >
                <b>Senior Backend Engineer, Pricing Team</b><br /><br />
                <ul>
-               <li><b>Technical Skills:</b> Python, JavaScript, Typescript, Mongo, PostgreSQL, Kafka, Spark, Ubuntu Linux, Git</li>
-               <li><b>Soft Skills:</b> Leadership, Teamwork, Time Management, Communication, Presentation skills, Documentation, Problem-Solving</li>
+               <li>Designed and implemented a <b>Mongo database access</b> over <b>Typegoose</b> in <b>Typescript</b> which made it possible to fetch and insert documents as class instances, access their functions, and cache them in Redis, resulting in a readable, easy to implement database access.</li>
+               <li>Owned the task for <b>refactoring</b> price calculation and pre-book price estimation services. This included designing components, breaking the task into well-defined sub-tasks, assigning and following up with these sub-tasks, and reviewing the code. The result was a readable and efficient TypeScript code, which <b>sped up the related APIs up to 1500% with over 90% automated test coverage</b>.</li>
+               <li>Designed and implemented a pipeline for automatic training and deployment of an AI model for the dynamic price surge service. This task included using a <b>Spark-Kafka</b> loop to iterative train and deploy the model on a daily basis.</li>
                </ul>
 
 - title: Tapsi
@@ -14,8 +26,8 @@
   description: >
                <b>Backend Engineer, Map/Pricing Team</b><br /><br />
                <ul>
-               <li><b>Technical Skills:</b> Python, JavaScript, Typescript, Mongo, PostgreSQL, Kafka, Spark, Ubuntu Linux, Git</li>
-               <li><b>Soft Skills:</b> Teamwork, Time Management, Communication, Presentation skills, Documentation, Problem-Solving</li>
+               <li>Delivered features in price calculation, pre-book price estimation, dynamic price surge (based on real-time supply and demand), and location suggestion services in a micro-service architecture, written in <b>JavaScript</b> and <b>Python</b>, finishing <b>200+ tasks in 14 months</b>.</li>
+               <li>Started initial work on refactoring price calculation service, taking responsibility for service design, component design, breaking tasks into well-defined sub-tasks, presenting and discussing design decisions with higher management, and participating in writing the initial code in <b>TypeScript</b>. This resulted in an <b>“Outstanding”</b> evaluation for the quarter and subsequent <b>instant promotion to Senior Backend Engineer</b>.</li>
                </ul>
 
 - title: Entertainment Software Rating Association (ESRA)
@@ -30,7 +42,4 @@
   to: 2020
   description: >
                <b>Game Developer</b><br /><br />
-               <ul>
-               <li><b>Technical Skills:</b> C#, Unity Game Engine, C++, QT, Git</li>
-               <li><b>Soft Skills:</b> Time Management, Communication, Logical Thinking, Problem-Solving</li>
-               </ul>
+               Development of an Android word game called ShekkarShekan, achieving <b>5000+ downloads</b>. Responsible for tasks including: level design tool automating the process of adding the level visuals and UI to the game (<b>QT, C++</b>), automated level generation (<b>Unity, C#</b>), main game mechanics, save system, etc.

@@ -22,6 +22,12 @@ My reseach aims to both use games as a testbed for improving AI, and using AI to
     <strong>Co-Organizer</strong>, Procedural Content Generation (PCG) Workshop, 2022 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)
   </span></div> -->
 - <div class="honor-container">
+  <span class="honor-year">2025</span>
+  <span class="honor-description">
+    <strong>Nominee for Best paper</strong>, 2025 AAAI conference on Artificial Intelligence in Digital Entertainment (AIIDE)
+  </span></div>
+---
+- <div class="honor-container">
   <span class="honor-year">2023</span>
   <span class="honor-description">
     <strong>Nominee for Best paper</strong>, 2023 ACM Foundation of Digita Games (FDG) Conference
