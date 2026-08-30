@@ -4,6 +4,8 @@ tools: [Python, LLM, Game Description Language, Rule Understanding]
 image: ../images/klondike_gui.png
 description: Fine-tuning improves how well LLMs understand game rules, including rules unlike anything seen in training. This project studies that generalization using a large set of generated Solitaire rulesets and rule-understanding datasets.
 external_url: 
+category: Rule Reasoning
+subcategory: Solitaire
 ---
 
 # Solitaire Rule Understanding

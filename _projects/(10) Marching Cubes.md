@@ -4,6 +4,7 @@ tools: [Mesh Generation, Computer Graphics]
 image: ../images/transvoxel.png
 description: Marching cubes is an algorithm to extract a mesh from a 3D scalar field. This project is an efficient implementation of this algorithm based on the Transvoxel Algorithm.
 external_url:
+category: Other Projects
 ---
 
 

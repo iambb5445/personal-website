@@ -62,56 +62,56 @@ My reseach aims to both use games as a testbed for improving AI, and using AI to
 
 ---
 
-#### [Automated Iterative Design of Solitaire Games](/projects/11-solitaire-rule-generation)
+#### [Automated Iterative Design of Solitaire Games](/projects/02-solitaire-rule-generation)
 Bahar Bateni, Jim Whitehead
 
 Accepted to 2026 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), not yet published
 
 ---
 
-#### [Rule Synergy Analysis using LLMs: State of the Art and Implications](/projects/10-rule-synergy-analysis-using-llms)
+#### [Rule Synergy Analysis using LLMs: State of the Art and Implications](/projects/05-rule-synergy-analysis)
 Bahar Bateni, Benjamin Pratt, Jim Whitehead
 
 Conditionally accepted to IEEE Transactions on Games (ToG) 2026, currently under revision
 
 ---
 
-#### [LLM Game Rule Understanding Through Out-of-Distribution Fine-Tuning](/projects/9-solitaire-rule-understanding)
+#### [LLM Game Rule Understanding Through Out-of-Distribution Fine-Tuning](/projects/01-solitaire-rule-understanding)
 Bahar Bateni, Benjamin Pratt, Jim Whitehead
 
 2025 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)
 
 ---
 
-#### [Language-Driven Play: Large Language Models as Game-Playing Agents in Slay the Spire](/projects/6-language-driven-play)
+#### [Language-Driven Play: Large Language Models as Game-Playing Agents in Slay the Spire](/projects/04-language-driven-play)
 Bahar Bateni, Jim Whitehead
 
 2024 ACM Foundation of Digital Games (FDG)
 
 ---
 
-#### [You-Only-Randomize-Once: Shaping Statistical Properties in Constraint-based PCG](/projects/7-you-only-randomize-once)
+#### [You-Only-Randomize-Once: Shaping Statistical Properties in Constraint-based PCG](/projects/07-yoro)
 Jediah Katz, Bahar Bateni, Adam M. Smith
 
 2024 ACM Foundation of Digital Games (FDG)
 
 ---
 
-#### [MiniStS: A Testbed for Dynamic Rule Exploration](/projects/8-minists)
+#### [MiniStS: A Testbed for Dynamic Rule Exploration](/projects/03-minists)
 Bahar Bateni, Jim Whitehead
 
 11th Experimental AI in Games Workshop (EXAG), 2024 AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)
 
 ---
 
-#### [Structure and Coherence in City Road Network Generation](/projects/5-road-network-generation)
+#### [Structure and Coherence in City Road Network Generation](/projects/08-road-network-generation)
 Bahar Bateni, Jim Whitehead
 
 2023 IEEE Conference on Games (CoG)
 
 ---
 
-#### [Better Resemblance without Bigger Patterns: Making Context-sensitive Decisions in WFC](/projects/1-context-sensitive-wfc)
+#### [Better Resemblance without Bigger Patterns: Making Context-sensitive Decisions in WFC](/projects/06-context-sensitive-wfc)
 Bahar Bateni, Isaac Karth, Adam M. Smith
 
 2023 ACM Foundation of Digital Games (FDG)

@@ -4,13 +4,15 @@ tools: [Python, LLM, Benchmarking, Rule Understanding]
 image: ../images/rule-synergy-chord.png
 description: A dataset and evaluation of how well LLMs reason about card synergies in Slay the Spire, showing that while models reliably spot non-synergistic pairs, they struggle to detect positive and especially negative synergies between rules.
 external_url: 
+category: Rule Reasoning
+subcategory: Slay the Spire
 ---
 
 # Rule Synergy Analysis
 
 A synergy is when two or more elements combine to produce an effect greater than the sum of their parts, and in card games, synergy between cards is a major source of strategic depth. Detecting these synergies requires not just understanding each card's individual effect, but reasoning about how those effects interact in complex, sometimes non-obvious ways, which makes it a demanding test of an LLM's understanding of game rules.
 
-This project introduces a dataset of card synergies from [Slay the Spire](/projects/6-language-driven-play), covering every pairwise combination within one of the game's card sets, labeled as positive, negative, or no synergy. LLMs are prompted to classify each pair using only the cards' textual descriptions, without access to a playable version of the game or any simulated game state, making this a static reasoning task rather than a dynamic, gameplay-driven one.
+This project introduces a dataset of card synergies from [Slay the Spire](/projects/04-language-driven-play), covering every pairwise combination within one of the game's card sets, labeled as positive, negative, or no synergy. LLMs are prompted to classify each pair using only the cards' textual descriptions, without access to a playable version of the game or any simulated game state, making this a static reasoning task rather than a dynamic, gameplay-driven one.
 
 ![preview](../images/synergy-subset.png)
 

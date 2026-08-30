@@ -4,6 +4,7 @@ tools: [Python, PCG, WFC, Tile-based Generation]
 image: ../images/cswfc.png
 description: WaveFunctionCollapse (WFC) is a procedural content generation algorithm. Context-sensitive WFC offers a small modification to the search heuristic, significantly improving the quality of results, resemblance to the input image, and expressive range.
 external_url: 
+category: Tile-Based Generation
 ---
 
 # Context-sensitive WFC

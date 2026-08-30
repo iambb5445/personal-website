@@ -4,6 +4,8 @@ tools: [Python, LLM, Game Description Language, Automated Game Design]
 image: ../images/diversity.png
 description: Comparing an evolutionary Solitaire game generator against an iterative LLM-based designer that refines each game through small, deliberate changes and a self-learned skill file, finding the LLM approach produces less games, but more diverse results.
 external_url: 
+category: Rule Reasoning
+subcategory: Solitaire
 ---
 
 # Automated Iterative Design of Solitaire Games
@@ -26,7 +28,7 @@ Most automated game design approaches rely on evolutionary algorithms, trusting 
 </div>
 <p class="text-center" style="font-size: 0.9em; color: #666; margin-top: -0.5rem;">Verdict distribution per generation.</p>
 
-The comparison is built on our [Solitaire GDL framework](/projects/9-solitaire-rule-understanding), which defines Solitaire variants in a custom Game Description Language and simulates them with general game-playing agents to extract evaluation metrics. Two generative processes start from the same 100 randomly generated Solitaire games. An evolutionary generator applies traditional mutation and crossover, guided by an internal fitness metric. An iterative LLM generator instead proposes a small, targeted change to each game every generation, based only on that game's own evaluation metrics, and refines its own understanding of game design over time by maintaining a self-learned skill file distilled from its past insights.
+The comparison is built on our [Solitaire GDL framework](/projects/01-solitaire-rule-understanding), which defines Solitaire variants in a custom Game Description Language and simulates them with general game-playing agents to extract evaluation metrics. Two generative processes start from the same 100 randomly generated Solitaire games. An evolutionary generator applies traditional mutation and crossover, guided by an internal fitness metric. An iterative LLM generator instead proposes a small, targeted change to each game every generation, based only on that game's own evaluation metrics, and refines its own understanding of game design over time by maintaining a self-learned skill file distilled from its past insights.
 
 <img src="../images/diversity.png" alt="preview" width="500"/>
 

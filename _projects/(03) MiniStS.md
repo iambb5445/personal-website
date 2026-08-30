@@ -4,6 +4,8 @@ tools: [Python, Computational Framework, Dynamic Rulesets, Rule Understanding]
 image: ../images/StS.gif
 description: MiniStS is a research testbed modeled after the rogue-like card game Slay the Spire, featuring a dynamic rule system where in-game cards can modify the rules themselves, built for studying game-playing AI and procedural content generation.
 external_url: 
+category: Rule Reasoning
+subcategory: Slay the Spire
 ---
 
 # MiniStS
@@ -17,7 +19,7 @@ MiniStS's defining feature is its dynamic rule system. Cards in the game can mod
 ![preview](../images/survivor-bash.png)
 <img src="../images/bash-survive-pseudocode.png" alt="preview" width="500"/>
 
-This testbed is also the environment used in [Language-Driven Play](/projects/6-language-driven-play), where a Large Language Model is evaluated as a general game-playing agent within MiniStS.
+This testbed is also the environment used in [Language-Driven Play](/projects/04-language-driven-play), where a Large Language Model is evaluated as a general game-playing agent within MiniStS.
 
 This work was presented in the paper "MiniStS: A Testbed for Dynamic Rule Exploration" by Bahar Bateni and Jim Whitehead, presented at the 11th Experimental AI in Games Workshop (EXAG), 2024.
 

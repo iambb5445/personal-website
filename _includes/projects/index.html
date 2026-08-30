@@ -1,0 +1,144 @@
+
+<style>
+  .projects-grouped .project-category-title {
+    font-weight: 700;
+    margin-top: 3rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+  }
+  .projects-grouped .project-category-title:first-child {
+    margin-top: 0.5rem;
+  }
+  .projects-grouped .project-subcategory-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: 0.75;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.75rem;
+  }
+</style>
+
+<div class="projects-grouped m-3 mt-5">
+
+  {%- assign rule_solitaire = site.projects | where: "subcategory", "Solitaire" -%}
+  {%- assign rule_sts       = site.projects | where: "subcategory", "Slay the Spire" -%}
+  {%- assign tile_based     = site.projects | where: "category", "Tile-Based Generation" -%}
+  {%- assign other_local    = site.projects | where: "category", "Other Projects" -%}
+
+  <!-- Rule Reasoning -->
+  <h3 class="project-category-title text-themed">Rule Reasoning</h3>
+
+  <h4 class="project-subcategory-title text-themed">Solitaire</h4>
+  <div class="card-columns m-3 mt-3">
+    {% for project in rule_solitaire %}
+      {%- assign project_type  = "local" -%}
+      {%- assign project_id    = project.name | slugify -%}
+      {%- assign project_img   = project.image -%}
+      {%- assign project_name  = project.name -%}
+      {%- assign project_desc  = project.description -%}
+      {%- assign project_tools = project.tools -%}
+      {%- if project.external_url -%}
+        {%- assign project_url = project.external_url -%}
+        {%- assign external    = true -%}
+      {%- else -%}
+        {%- assign project_url = project.url | relative_url -%}
+        {%- assign external    = false -%}
+      {%- endif -%}
+      {% include projects/project-card.html %}
+    {% endfor %}
+  </div>
+
+  <h4 class="project-subcategory-title text-themed">Slay the Spire</h4>
+  <div class="card-columns m-3 mt-3">
+    {% for project in rule_sts %}
+      {%- assign project_type  = "local" -%}
+      {%- assign project_id    = project.name | slugify -%}
+      {%- assign project_img   = project.image -%}
+      {%- assign project_name  = project.name -%}
+      {%- assign project_desc  = project.description -%}
+      {%- assign project_tools = project.tools -%}
+      {%- if project.external_url -%}
+        {%- assign project_url = project.external_url -%}
+        {%- assign external    = true -%}
+      {%- else -%}
+        {%- assign project_url = project.url | relative_url -%}
+        {%- assign external    = false -%}
+      {%- endif -%}
+      {% include projects/project-card.html %}
+    {% endfor %}
+  </div>
+
+  <!-- Tile-Based Generation -->
+  <h3 class="project-category-title text-themed">Tile-Based Generation</h3>
+  <div class="card-columns m-3 mt-3">
+    {% for project in tile_based %}
+      {%- assign project_type  = "local" -%}
+      {%- assign project_id    = project.name | slugify -%}
+      {%- assign project_img   = project.image -%}
+      {%- assign project_name  = project.name -%}
+      {%- assign project_desc  = project.description -%}
+      {%- assign project_tools = project.tools -%}
+      {%- if project.external_url -%}
+        {%- assign project_url = project.external_url -%}
+        {%- assign external    = true -%}
+      {%- else -%}
+        {%- assign project_url = project.url | relative_url -%}
+        {%- assign external    = false -%}
+      {%- endif -%}
+      {% include projects/project-card.html %}
+    {% endfor %}
+  </div>
+
+  <!-- Other Projects -->
+  <h3 class="project-category-title text-themed">Other Projects</h3>
+  <div class="card-columns m-3 mt-3">
+
+    <!-- Remote Projects -->
+    {% for remote_project in page.remote_projects %}
+      {%- for repo in site.github.public_repositories -%}
+        {%- if remote_project == repo.name -%}
+          {%- assign project = repo -%}
+          {%- assign words = project.name | split: '-' -%}
+
+          {%- capture titlecase -%}
+            {%- for word in words -%}
+              {{ word | capitalize | append: ' ' }}
+            {%- endfor -%}
+          {%- endcapture -%}
+
+          {%- assign project_type  = "remote" -%}
+          {%- assign project_id    = project.name -%}
+          {%- assign project_img   = false -%}
+          {%- assign project_name  = titlecase | strip -%}
+          {%- assign project_desc  = project.description -%}
+          {%- assign project_url   = project.html_url -%}
+          {%- assign project_tools = project.topics -%}
+          {%- assign external      = true -%}
+
+          {% include projects/project-card.html %}
+        {%- endif -%}
+      {%- endfor -%}
+    {% endfor %}
+
+    <!-- Local Other Projects -->
+    {% for project in other_local %}
+      {%- assign project_type  = "local" -%}
+      {%- assign project_id    = project.name | slugify -%}
+      {%- assign project_img   = project.image -%}
+      {%- assign project_name  = project.name -%}
+      {%- assign project_desc  = project.description -%}
+      {%- assign project_tools = project.tools -%}
+      {%- if project.external_url -%}
+        {%- assign project_url = project.external_url -%}
+        {%- assign external    = true -%}
+      {%- else -%}
+        {%- assign project_url = project.url | relative_url -%}
+        {%- assign external    = false -%}
+      {%- endif -%}
+      {% include projects/project-card.html %}
+    {% endfor %}
+
+  </div>
+
+</div>
