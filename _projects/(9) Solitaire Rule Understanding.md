@@ -20,6 +20,7 @@ This work was presented in the paper "LLM Game Rule Understanding Through Out-of
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/iambb5445/SolitaireGDL" text="Code" %}
+{% include elements/button.html link="https://huggingface.co/datasets/bbateni/Solitaire-Rule-Reasoning-Benchmark" text="Dataset" %}
 {% include elements/button.html link="https://ojs.aaai.org/index.php/AIIDE/article/view/36804" text="Paper" %}
 {% include elements/button.html link="https://iambb5445.github.io/SolitaireGDLWeb/index.html" text="Play it Online" %}
 </p>
