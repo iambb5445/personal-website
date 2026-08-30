@@ -20,4 +20,6 @@ This work, "Rule Synergy Analysis using LLMs: State of the Art and Implications"
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/iambb5445/Language-based-Synergy-Detection" text="Code" %}
+<a class="m-1 btn btn-outline-secondary btn-md disabled" href="#" tabindex="-1" role="button" aria-disabled="true" style="pointer-events: none; opacity: 0.6;">Paper (Under Review)</a>
+{% include elements/button.html link="https://arxiv.org/abs/2508.19484" text="Paper (Arxiv version)" %}
 </p>
